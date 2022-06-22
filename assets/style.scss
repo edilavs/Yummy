@@ -123,3 +123,66 @@
             }
         }
     }
+    
+    #chefs {
+        margin-top: 40px;
+        background-color: #eee;
+        padding: 50px;
+        .chefs {
+            .chef-card {
+                margin-right: 20px;
+                width: 416px;
+                .card {
+                    .chef {
+                        img {
+                            width: 416px;
+                            height: 416px;
+                        }
+                        .chef-status {}
+                        .chef-info {
+                            padding: 8px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    #bookTable {
+        .container {
+            .form-section {
+                display: flex;
+                background-color: #eee;
+                img {
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+    
+    #footer {
+        background-color: rgb(37, 37, 37);
+        padding: 30px;
+        color: white;
+        .footer-element {
+            .footer-caption {
+                display: flex;
+                i {
+                    font-size: 22px;
+                    margin-top: 13px;
+                }
+            }
+            .socials {
+                background-color: rde;
+                display: flex;
+                .socials-iconn {
+                    padding: 10px;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                    border-color: white;
+                }
+            }
+        }
+    }

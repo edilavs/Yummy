@@ -125,4 +125,67 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+#chefs {
+  margin-top: 40px;
+  background-color: #eee;
+  padding: 50px;
+}
+
+#chefs .chefs .chef-card {
+  margin-right: 20px;
+  width: 416px;
+}
+
+#chefs .chefs .chef-card .card .chef img {
+  width: 416px;
+  height: 416px;
+}
+
+#chefs .chefs .chef-card .card .chef .chef-info {
+  padding: 8px;
+  text-align: center;
+}
+
+#bookTable .container .form-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eee;
+}
+
+#bookTable .container .form-section img {
+  margin-left: 0px;
+}
+
+#footer {
+  background-color: #252525;
+  padding: 30px;
+  color: white;
+}
+
+#footer .footer-element .footer-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .footer-element .footer-caption i {
+  font-size: 22px;
+  margin-top: 13px;
+}
+
+#footer .footer-element .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .footer-element .socials .socials-iconn {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: white;
+}
 /*# sourceMappingURL=style.css.map */
