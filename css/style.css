@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-expand-lg {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-expand-lg .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-expand-lg .container-fluid .navbar-brand .yummy-dot {
+  color: red;
+  font-weight: 300px;
+}
+
+.navbar-expand-lg .container-fluid .collapse .navbar-nav .nav-item:hover a::before {
+  visibility: visible;
+}
+
+.navbar-expand-lg .container-fluid .collapse .navbar-nav .nav-item a {
+  position: relative;
+  width: 100%;
+}
+
+.navbar-expand-lg .container-fluid .collapse .navbar-nav .nav-item a::before {
+  position: absolute;
+  content: "";
+  background-color: red;
+  height: 3px;
+  width: 40px;
+  width: 100%;
+  bottom: 7px;
+  visibility: hidden;
+}
+
+.navbar-expand-lg .container-fluid .table-button {
+  background-color: red;
+  color: white;
+  padding: 8px;
+  height: 50px;
+  border-radius: 18px;
+}
+
+#sliderSection .slider {
+  width: 100%;
+  background-color: #eee;
+}
+
+#sliderSection .slider .slider-caption {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px auto;
+  color: red;
+}
+
+#sliderSection .slider .slider-description {
+  margin-top: 18px;
+}
+
+#sliderSection .slider .button-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+#sliderSection .slider .button-content .table-button {
+  background-color: red;
+  color: white;
+  padding: 8px;
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sliderSection .slider .button-content .watch-button {
+  margin-top: 10px;
+}
+
+#sliderSection .slider .button-content .watch-button i {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+#sliderSection .slider .button-content .watch-button:hover {
+  color: red;
+}
+
+#aboutUs .about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#aboutUs .about-us .about-text .about-img {
+  position: relative;
+}
+
+#aboutUs .about-us .about-text .about-img .phone-number {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  position: absolute;
+  font-size: large;
+  height: 100px;
+  width: 500px;
+  top: 480px;
+  left: 150px;
+  background-color: white;
+}
+
+#aboutUs .about-us .about-text .about-infos {
+  list-style-type: none;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
